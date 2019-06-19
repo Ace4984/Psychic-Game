@@ -9,8 +9,7 @@ var guessedLetters = [];
 var computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log(computerChoice)
 
-// reset function to reset guesses and guessed letters
-// function to push letters to guessed letters
+
 document.onkeydown = function (event) {
     var userGuess = event.key;
     console.log(userGuess)
